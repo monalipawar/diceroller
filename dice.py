@@ -252,10 +252,18 @@ div.stButton > button:active {{
 label, .stRadio label, .stNumberInput label {{ color: rgba(255,255,255,0.6) !important; font-family: 'Outfit', sans-serif !important; }}
 .stRadio > div {{ gap: 8px; }}
 [data-testid="stNumberInput"] input {{
-    background: rgba(255,255,255,0.08) !important;
-    border: 1px solid rgba(255,255,255,0.15) !important;
-    border-radius: 10px !important; color: white !important;
+    background: rgba(15,23,42,0.85) !important;
+    border: 1px solid rgba(255,255,255,0.25) !important;
+    border-radius: 10px !important;
+    color: white !important;
     font-family: 'Outfit', sans-serif !important;
+    font-size: 1.1rem !important;
+    font-weight: 600 !important;
+    caret-color: white !important;
+}}
+[data-testid="stNumberInput"] input::selection {{
+    background: rgba(99,179,255,0.4) !important;
+    color: white !important;
 }}
 </style>
 
